@@ -2,9 +2,9 @@ from math import *
 
 
 a = float(input("Введите число a:"))
-b = float(input("Введите число a:"))
-c = float(input("Введите число a:"))
-x = float(input("Введите число a:"))
+b = float(input("Введите число b:"))
+c = float(input("Введите число c:"))
+x = float(input("Введите число x:"))
 
 
 if x < 0 and b != 0:
