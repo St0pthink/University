@@ -1,0 +1,17 @@
+def main():    
+    f = open("test.txt", encoding="utf-8")
+    for i in f.readlines():
+        i = i.replace('.\n','.')
+        i = i.replace('. ','.\n')
+        i = i.replace('0','ноль')
+        i = i.replace('1','один')
+        i = i.replace('2','два')
+        i = i.replace('3','три')
+        i = i.replace('4','четыре')
+        i = i.replace('5','пять')
+        i = i.replace('6','шесть')
+        i = i.replace('7','семь')
+        i = i.replace('8','восемь')
+        i = i.replace('9','девять')
+        print(i)
+main()
